@@ -1,0 +1,29 @@
+ion-col {
+    display: flex;
+
+    ion-menu-button {
+        color: #fff;
+    }
+
+    ion-img {
+        width: 50%;
+    }
+
+    ion-icon {
+        background: black;
+        padding: 5px;
+        border-radius: 100%;
+        color: orange;
+    }
+
+    ion-icon:before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background: orange;
+        display: block;
+        position: absolute;
+        right: 0.099rem;
+    }
+}
