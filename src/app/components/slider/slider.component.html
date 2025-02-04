@@ -1,5 +1,9 @@
-<swiper-container slides-per-view="1">
+<ion-text color="light" [ngClass]="textUppercase ? 'ion-text-uppercase' : 'ion-text-capitalize'">
+	<h3>{{carouselTitle}}</h3>
+</ion-text>
+
+<swiper-container slides-per-view="1.4" space-between="20">
 	<swiper-slide *ngFor="let image of images">
-		<img [src]="image.url" [alt]="image.alternativeText">
+		<div class="image" [ngStyle]="{'background-image': 'url(' + image.url + ')'}"></div>
 	</swiper-slide>
 </swiper-container>

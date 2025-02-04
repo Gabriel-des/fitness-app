@@ -2,6 +2,23 @@
 <app-profile></app-profile>
 <ion-content>
 	<div class="ion-margin-horizontal">
-		<app-slider [images]="trainingImages"></app-slider>
+		<app-slider
+			class="ion-margin-end"
+			carouselTitle="Personal Online"
+			[images]="trainingImages"
+			[textUppercase]="true">
+		</app-slider>
+
+		<app-slider 
+			carouselTitle="Programas"
+			[images]="trainingImages"
+			[textUppercase]="true">
+		</app-slider>
+
+		<app-slider 
+			carouselTitle="Conteúdos"
+			[images]="trainingImages"
+			[textUppercase]="true">
+		</app-slider>
 	</div>
 </ion-content>
