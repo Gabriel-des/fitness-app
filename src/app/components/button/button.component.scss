@@ -1,0 +1,13 @@
+ion-button {
+    border: none;
+    color: #F07D07;
+    font-size: 8px;
+    max-width: 7rem;
+    --border-style: none;
+
+    ion-icon {
+        border: 1px solid;
+        padding: 5px;
+        border-radius: 100%;
+    }
+}

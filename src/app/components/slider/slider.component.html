@@ -1,0 +1,5 @@
+<swiper-container slides-per-view="1">
+	<swiper-slide *ngFor="let image of images">
+		<img [src]="image.url" [alt]="image.alternativeText">
+	</swiper-slide>
+</swiper-container>

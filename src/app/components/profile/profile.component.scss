@@ -1,0 +1,63 @@
+ion-row {
+    background-color: #202020;
+    border-radius: 0 0 3rem 3rem;
+
+    ion-col {
+        display: flex;
+
+        .img {
+            width: 4.5rem;
+            height: 4.5rem;
+            border-radius: 100%;
+            background: url(https://docs-demo.ionic.io/assets/madison.jpg) no-repeat center;
+            background-size: cover;
+            margin: 10px;
+        }
+
+        .name {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .level {
+            font-size: 12px;
+        }
+
+        .level.Branco {
+            color: white;
+        }
+
+        .level.Cinza {
+            color: grey;
+        }
+
+        .level.Azul {
+            color: blue;
+        }
+
+        .level.Amarelo {
+            color: yellow;
+        }
+
+        .level.Roxo {
+            color: purple;
+        }
+
+        .level.Vermelho {
+            color: red;
+        }
+
+        .level.Preto {
+            color: black;
+        }
+    }
+
+    ion-col.buttons {
+        ion-row {
+            background-color: #161616;
+            border-radius: 10rem;
+            padding: 5px;
+            margin-bottom: 1rem;
+        }
+    }
+}
