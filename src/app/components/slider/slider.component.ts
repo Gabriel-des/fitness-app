@@ -1,6 +1,6 @@
 import { CommonModule, NgStyle } from '@angular/common';
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit, Input } from '@angular/core';
-import { ICarouselImageItem } from 'src/app/interfaces/icarousel-image-item';
+import { ICarouselImageItem } from 'src/interfaces/icarousel-image-item';
 import { register } from 'swiper/element/bundle';
 
 register();
