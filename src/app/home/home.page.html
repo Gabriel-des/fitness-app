@@ -1,5 +1,8 @@
 <app-header></app-header>
-<app-profile></app-profile>
+<app-profile 
+      *ngIf="user$ && user$.length > 0"
+      [user]="user$[0]">
+</app-profile>
 <ion-content>
 	<div class="ion-margin-horizontal">
 		<app-slider
